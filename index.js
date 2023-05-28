@@ -7,7 +7,7 @@ appDiv.innerHTML = `<h1>JS((X)) StarTer_Code</h1>`;
 
 // condition about traffic light 
 const theTrafficLight = () => {
-  let trafficLight = 'red'; 
+  let trafficLight = ''; 
 
   if (trafficLight === 'red') {
     return 'Stop!'; 
@@ -20,4 +20,4 @@ const theTrafficLight = () => {
   }
 }; 
  
-console.log(theTrafficLight()); 
+console.log(theTrafficLight()); // output The traffic light doesn\'t work!!!
